@@ -1,6 +1,15 @@
-import {it, expect} from "./test_lib";
-import {Dog} from "./constructors/dog";
-import {Person} from "./constructors/person";
+import {
+  it, expect
+}
+from "./test_lib";
+import {
+  Dog
+}
+from "./constructors/dog";
+import {
+  Human
+}
+from "./constructors/person";
 // Uncomment the line below for Hard Mode and define
 // Human and Coffee objects to complete the Hard mode.
 // Only do this *after* Normal Mode is finished!
@@ -33,7 +42,7 @@ it("should make Sadie happy when Mason pets her", function() {
   expect(sadie.status).toBe('happy');
 });
 
-it("should make Sadie black", function(){
+it("should make Sadie black", function() {
   expect(sadie.color).toBe('black');
 });
 
