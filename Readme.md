@@ -1,55 +1,27 @@
-# Installation
+[Surge](http://tiy-joshuarivers-constructors-hw.surge.sh)
 
-#### Prerequisites
+## Objectives
 
-Make sure you have an up to date installation of `npm`
-with `brew update` followed by either `brew install npm` or `brew upgrade npm`.
+* Ability to understand the role Constructors play in JavaScript.
+* Be able to create flexible functions that can serve a variety of data
 
-Then use npm to install the following apps with `npm install -g $APP_NAME`
-* `gulp-cli`
-* `surge`
+## Normal Mode
 
-Finally, I would strongly encourage you to install the `newapp` script from [here][newapp].
+1. Fork [this repo](https://github.com/tiy-atl-js-june-2016/constructors-hw), and clone it down to your computer
+2. Only add code to the `person.js` and `dog.js`
+3. The goal is to make sure all of the tests pass
+4. To see what that looks like, refer to the screenshot below:
 
-[newapp]: https://gist.github.com/kingcons/a25733c233faf10847cbb4ff557e6843
+![screenshot](https://tiy-learn-content.s3.amazonaws.com/bd2af533-final.png)
 
-# Usage
+## Hard Mode
 
-#### If you are using the `newapp` tool
+1. Uncomment the // import coffee,human line.
+2. Open the `bonus.js` file and make the tests pass!
 
-*NOTE:* If you do not use a lowercased project/folder name, the automatic deploy to surge with `npm run deploy` will fail as surge.sh always expects lowercased names.
+## Deliverables
 
-1. Run `$ newapp template <project name>`
-2. Change in to your new project
-3. Initialize Git `$ git init`
-4. Build
-
-#### If you are NOT using the `newapp` tool
-
-1. Clone down this repo
-2. Rename and change into the project folder
-3. Remove `git` from it `$ rm -rf .git`
-4. Initialize Git `$ git init`
-5. Install the dependencies `$ npm install`
-6. Build 
+* Submit your Github Repo URL
+* Deploy to Surge.sh and put a link in your `Readme.md` file
 
 
-# Features
-
-This template features a couple different tools. First it utalizes both NPM and Gulp for different tasks.
-
-## Gulp Tasks
-
-All tasks are listed below, but ideally you will just need to run `gulp start` and be done with it.
-
-- `gulp start`: This is the primary task that will fire up the server and allow you to start building
-- `gulp server`: This will start a Browsersync server with live-reload
-- `gulp sass`: This will compile your SASS
-- `gulp browserify`: This will transpile your JS from ES6 to ES5
-- `gulp watch`: This will start a watcher for files
-
-## NPM Scripts
-
-- `npm run test`: This will launch Mocha in your terminal and run any tests
-- `npm run deploy`: This will deploy your application to Surge.sh for you
-- `npm run lint`: This will run ESLint on your `/src/js` folder
