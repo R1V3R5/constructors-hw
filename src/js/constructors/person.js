@@ -1,4 +1,4 @@
-function Human(options) {
+function Person(options) {
   var options = options || {};
   this.pet = function(dog) {
     dog.status = "happy"
@@ -11,5 +11,5 @@ function Human(options) {
 
 
 export {
-  Human
+  Person
 }
